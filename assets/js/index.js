@@ -9,7 +9,7 @@ let modal = new Modal(modalContainer);
 fetch('https://raw.githubusercontent.com/vega/vega/master/docs/data/movies.json')
     .then(response => response.json())
     .then(json => new TableGenerator(json, tableContainer, rowClick(modal, json)))
-
+//asd1
 //asd
 // https://jsonplaceholder.typicode.com/photos
 //https://jsonplaceholder.typicode.com/users
